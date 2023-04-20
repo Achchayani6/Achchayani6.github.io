@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(200, 192, 184);
+}
+h1{
+    text-align: center;
+    
+}
+h2{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+section{
+    width:100%;
+    overflow:none;
+    
+    }
+p{
+    padding-top: 0%;
+    padding: 10px;
+    padding-top: 0px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.container{
+
+    border:3px solid;
+    margin: 30px;
+    height: auto;
+    width: 80%;
+    position: relative;
+    overflow: auto;
+    background-color: rgb(162, 155, 155);
+    text-align: justify;
+    display: inline-block;
+
+
+}
+.box{
+   overflow:none;
+   text-align: center;
+   border-bottom: 2px solid black;
+   border-left: 2px solid black;
+   margin-top: 0px;
+   margin-left: 60%;
+   width: 40%;
+   height: auto;
+   position: relative;
+   overflow:auto;
+  background-color: rgb(183, 134, 116);
+   
+}
+.beef{
+    background-color: rgb(193, 141, 77)
+}
+
+.susi{
+    background-color: rgb(196, 146, 70);
+}
+@media (min-width: 992px){
+     .col-lg-4, .col-lg-6,.col-lg-12 {
+      float: left;  
+    }
+    .col-lg-4 {
+      width: 33.33%;
+    }
+    .col-lg-6 {
+      width: 50%;
+    }
+    .col-lg-12 {
+      width: 100%;
+    }
+  
+  }
+  
+  
+  /*------ Tablet ------*/
+  @media (min-width: 768px) and (max-width: 991px){
+    .col-lg-4 {
+      width: 50%;
+      float: left;
+    }
+    .col-lg-tablet{
+     width: 100%;
+     float: left;
+   }
+  }
+  
+  
+  /*------ Mobile ------*/
+  @media (max-width: 767px){
+    .col-lg-4{
+      width: 100%;
+      float: left;
+    }
+  }
